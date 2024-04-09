@@ -36,17 +36,23 @@ cd transcript-generation-api
 npm install
 ```
 
-3. Set up environment variables:
+3. Create an uploads folder in the root directory of the project:
+
+```bash
+mkdir uploads
+```
+
+4. Set up environment variables:
 
    - `ASSEMBLY_AI_API_KEY`: Your AssemblyAI API key.
 
-4. Start the server:
+5. Start the server:
 
 ```bash
 npm start
 ```
 
-5. Access the API endpoints:
+6. Access the API endpoints:
 
 - POST `/transcribe`: Upload a video file to transcribe.
 
